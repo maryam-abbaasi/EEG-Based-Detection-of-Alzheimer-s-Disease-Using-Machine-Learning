@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on the automatic detection of Alzheimer’s disease (AD) using EEG (Electroencephalography) signals and machine learning models.Resting-state, eyes-closed EEG recordings are processed, augmented, transformed into features, and classified using multiple machine learning algorithms.
+This project focuses on the detection of Alzheimer’s disease (AD) using EEG (Electroencephalography) signals and machine learning models.Resting-state, eyes-closed EEG recordings are processed, augmented, transformed into features, and classified using multiple machine learning algorithms.
 
 The complete workflow follows these steps exactly as implemented in the Google Colab notebook:
 
@@ -23,7 +23,6 @@ The EEG dataset used in this project is obtained from OpenNeuro.
 
 * **Dataset Name:** A dataset of 88 EEG recordings from Alzheimer’s disease, Frontotemporal dementia, and Healthy subjects
 * **DOI:** 10.18112/openneuro.ds004504.v1.0.1
-* 
 
 ## Participants Information
 
