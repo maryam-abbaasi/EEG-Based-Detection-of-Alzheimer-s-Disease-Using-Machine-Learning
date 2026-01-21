@@ -79,7 +79,7 @@ The preprocessing steps are:
 
 ## Data Loading and Cleaning
 
-* EEG CSV files are loaded from Google Drive using `glob`
+* EEG CSV files are loaded from Google Drive using glob
 * Google Drive is mounted in Google Colab
 * All values are converted to numeric format
 * Missing values are handled using forward fill and backward fill
@@ -113,8 +113,8 @@ Augmentation is applied separately to Alzheimer and Healthy samples.
 
 ## Train and Test Split
 
-* Augmented EEG samples are mainly used for **training**
-* Original EEG samples are mainly used for **testing**
+* Augmented EEG samples are mainly used for training
+* Original EEG samples are mainly used for testing
 * Small portion of original data is included in training to maintain balance
 
 ### Final Dataset Sizes
@@ -147,8 +147,8 @@ The following steps are applied exactly as in the notebook:
 * Healthy samples labeled as healthy
 * Features and labels saved as:
 
-  * `train.csv`
-  * `test.csv`
+  * train.csv
+  * test.csv
 * No missing values present after processing
 * Final feature matrix shapes:
 
@@ -173,4 +173,5 @@ All models are trained on the same training set and evaluated on the same test s
 
 
 ## Citations
-Andreas Miltiadous, Katerina D. Tzimourta, Theodora Afrantou, Panagiotis Ioannidis, Nikolaos Grigoriadis, Dimitrios G. Tsalikakis, Pantelis Angelidis, Markos G. Tsipouras, Evripidis Glavas, Nikolaos Giannakeas, and Alexandros T. Tzallas (2023). A dataset of 88 EEG recordings from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects. OpenNeuro. [Dataset]doi:10.18112/openneuro.ds004504.v1.0.1
+Andreas Miltiadous, Katerina D. Tzimourta, Theodora Afrantou, Panagiotis Ioannidis, Nikolaos Grigoriadis, Dimitrios G. Tsalikakis, Pantelis Angelidis, Markos G. Tsipouras, Evripidis Glavas, Nikolaos Giannakeas, and Alexandros T. Tzallas (2023). A dataset of 88 EEG recordings from: Alzheimer's disease, Frontotemporal dementia and Healthy subjects. OpenNeuro. [Dataset]
+doi:10.18112/openneuro.ds004504.v1.0.1
