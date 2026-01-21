@@ -169,7 +169,7 @@ All models are trained on the same training set and evaluated on the same test s
 | Random Forest             | ~97.56% |
 | Gaussian Naive Bayes      | ~75.61% |
 | Bernoulli Naive Bayes     | ~58.54% |
-| Ensemble Model            | ~95.12% |
+| Ensemble Learning         | ~95.12% |
 
 
 ## Citations
